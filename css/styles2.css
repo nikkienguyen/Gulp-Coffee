@@ -1,0 +1,184 @@
+body {
+    background-color: #F2F2F2;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 50px;
+  }
+  
+  
+  .nav li i {
+    margin-right: 5px;
+  }
+  
+  
+  nav {
+    background-color: #082B59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  
+  nav::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #D98555;
+  }
+  
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .nav li {
+    margin: 20px;
+  }
+  
+  
+  .nav li a {
+    display: block;
+    text-decoration: none;
+    color: #F2F2F2;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  
+  .nav li a:hover {
+    color: #D98555;
+  }
+  
+  
+  .nav li a.active {
+    background-color: #D98555;
+  }
+  
+  
+  .logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .logo img {
+    height: 120px;
+  }
+  
+  
+  header {
+    background-color: #082B59;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  section {
+    padding: 40px;
+  }
+  
+  
+  .footer {
+    background-color: #082B59;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  
+  
+  .footer::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #D98555;
+  }
+  
+  
+  .footer p {
+    color: #F2F2F2;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+  .social {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  
+  .social li {
+    margin: 0 10px;
+  }
+  
+  
+  .social li a {
+    display: block;
+    color: #F2F2F2;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  
+  .social li a:hover {
+    color: #082B59;
+  }
+  
+  
+  #contact {
+    position: relative;
+    top: 200px;
+    left: -20px;
+  }
+  
+  
+  .image {
+    text-align: right;
+    margin-top: -50px;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .image img {
+    width: 50%;
+    height: auto;
+  }
+  
+  
+  @media only screen and (max-width: 479px) {
+    .logo img {
+      height: 60px;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .image {
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  
